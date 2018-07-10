@@ -1,13 +1,9 @@
 def move_zeros(array):
-    not_zero = 0
+    new_array = []
+    arr_length = len(array)
     
-    for idx in range(len(array)):
+    for idx in range(arr_length):
         if array[idx] != 0 or array[idx] is False:
-            array[not_zero] = array[idx]
-            not_zero += 1
-    
-    while not_zero < len(array):
-        array[not_zero] = 0
-        not_zero += 1
-        
-    return array
+            new_array.append(array[idx])
+            
+    return new_array + [0]*(arr_length - len(new_array))
