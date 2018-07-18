@@ -1,3 +1,6 @@
+-- https://modern-sql.com/use-case/pivot
+
+
 select p.name,
   count(d.id) filter (where d.detail = 'good') as good,
   count(d.id) filter (where d.detail = 'ok') as ok,
