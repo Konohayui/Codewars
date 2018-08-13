@@ -2,7 +2,7 @@ import itertools
 
 def get_pins(observed):
     adjacents = {}
-    adjacents["1"] = ["1","2","4"] 
+    adjacents["1"] = ["1", "2", "4"] 
     adjacents["2"] = ["1", "2", "3", "5"]
     adjacents["3"] = ["2", "3", "6"]
     adjacents["4"] = ["1", "4", "5", "7"]
