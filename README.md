@@ -4,4 +4,4 @@
 
 ### Codewars Ranking
 
-http://www.codewars.com/about
+https://github.com/Codewars/codewars.com/wiki/Kata-Ranking
